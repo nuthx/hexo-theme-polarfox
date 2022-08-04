@@ -1,0 +1,36 @@
+#primary div:first-child {
+    margin-top: 0;
+}
+
+.archive-header {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0 0 9px 0;
+    border-bottom: solid 1px $border-color;
+    a {
+        font-size: 24px;
+        font-weight: bold;
+        color: $font-color;
+    }
+}
+
+.archive-year {
+    margin-top: 50px;
+}
+
+.archive-post {
+    width: 100%;
+    margin: 16px 0;
+    display: flex;
+}
+
+.archive-title {
+    display: inline-block;
+    margin: 0 0 0 35px;
+    font-size: 16px;
+    color: $font-color;
+    line-height: 26px;
+    text-decoration: none;
+    @include font-hover-color;
+}
+

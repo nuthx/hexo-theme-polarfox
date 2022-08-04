@@ -1,0 +1,41 @@
+# ===========================================
+# Site Information Settings
+# ===========================================
+
+# Site creation time
+since: 2018
+
+# Custom your favicon.ico in `site/source`
+favicon: /favicon.ico
+
+# ===========================================
+# Menu Settings
+# ===========================================
+menu:
+  Archives: /archives
+  About: /about
+
+# ===========================================
+# Widget Settings
+# ===========================================
+# widget function
+# false: disable
+# widget_custom: custom your widget
+#   title: your widget title
+#   content: Add your html code in here. Example: <p>testing...</p>
+widget:
+  Tags: true
+  Categories: true
+  Custom: false
+
+widget_custom:
+    title: Test
+    content: <p>testing...</p>
+
+# ===========================================
+# Theme Settings
+# ===========================================
+# theme styling
+# color: Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
+theme:
+  color: Dark

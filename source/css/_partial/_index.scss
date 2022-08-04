@@ -1,0 +1,39 @@
+#primary article:last-of-type {
+    padding-bottom: 20px;
+    border-bottom: none;
+}
+
+.index-post {
+    width: 100%;
+    padding: 40px 0;
+    border-bottom: solid 1px $border-color;
+    display: flex;
+}
+
+.index-post-time {
+    font-size: 16px;
+    color: $trifont-color;
+}
+
+.index-post-content {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.index-post-title {
+    margin: 0;
+    font-size: 16px;
+    a {
+        color: $font-color;
+        line-height: 26px;
+        text-decoration: none;
+        @include font-hover-color;
+    }
+}
+
+.index-post-excerpt {
+    margin-top: 16px;
+    font-size: 15px;
+    color: $subfont-color;
+    line-height: 24px;
+}

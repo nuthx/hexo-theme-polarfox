@@ -1,0 +1,22 @@
+#akkofooter{
+    padding: $body-padding;
+    border-top: solid 1px $border-color;
+}
+
+.site-footer {
+    margin: 0 auto;
+    width: 100%;
+    padding: 25px 0;
+    color: $trifont-color;
+    font-size: 14px;
+    max-width: $body-width;
+    display: block;
+    a {
+        color: $trifont-color;
+        text-decoration: none;
+    }
+}
+
+.footer-author{
+    margin: 0 4px;
+}

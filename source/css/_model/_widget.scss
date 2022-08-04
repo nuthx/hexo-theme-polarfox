@@ -1,0 +1,37 @@
+.widget-margin {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.archive-list,
+.category-list,
+.tag-list {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.archive-list-item,
+.category-list-item,
+.tag-list-item {
+    margin-top: 12px;
+    a {
+        font-size: 14px;
+        color: $subfont-color;
+        text-decoration: none;
+        @include font-hover-color;
+    }
+}
+
+.archive-list-count,
+.category-list-count,
+.tag-list-count {
+    font-size: 10px;
+    color: $trifont-color;
+    &:before {
+        content:" ("
+    }
+    &:after {
+        content:")"
+    }
+}

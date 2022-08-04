@@ -1,0 +1,23 @@
+// ========== Theme Color ========== //
+// Default theme color map
+$theme-color-map: (
+    'Light': #FFFFFF #F6F6F6 #666666 #666666B3 #66666680 #FF2121,
+    'Dark': #222222 #333333 #D5D5D5 #D5D5D599 #D5D5D566 #FFEB44
+);
+
+// Set theme color
+$theme-color-config: 'Light';
+
+// Default theme color of the site.
+$theme-color-list: map-get($theme-color-map, $theme-color-config);
+$background-color: nth($theme-color-list, 1);
+$border-color: nth($theme-color-list, 2);
+$font-color: nth($theme-color-list, 3);
+$subfont-color: nth($theme-color-list, 4);
+$trifont-color: nth($theme-color-list, 5);
+$highlight-color: nth($theme-color-list, 6);
+
+
+// ========== Global ========== //
+$body-width: 940px;
+$body-padding: 0 30px;

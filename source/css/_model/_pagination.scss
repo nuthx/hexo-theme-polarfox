@@ -1,0 +1,25 @@
+.pagination {
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: solid 1px $border-color;
+}
+
+.pagination-number {
+    display: inline-block;
+    a {
+        font-size: 16px;
+        color: $trifont-color;
+    }
+}
+
+.pagination-btn {
+    float: right;
+    a {
+        margin-left: 30px;
+        font-size: 16px;
+        color: $subfont-color;
+        text-decoration: none;
+        @include font-hover-color;
+    }
+}
