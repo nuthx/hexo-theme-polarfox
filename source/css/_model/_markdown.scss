@@ -97,15 +97,16 @@
         td.gutter {
             display: none;
         }
-        pre {
-            margin: 0;
-            span {
-                font-size: 14px;
-                line-height: 28px;
-                white-space: pre-wrap;
-                word-break: keep-all;
-                font-family: $font-code;
-            }
+    }
+
+    pre {
+        margin: 0;
+        span {
+            font-size: 14px;
+            line-height: 28px;
+            white-space: pre-wrap;
+            word-break: keep-all;
+            font-family: $font-code;
         }
     }
 
