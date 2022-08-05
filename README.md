@@ -1,2 +1,3 @@
 # hexo-theme-polarfox
- A super light and simple theme.
+
+> A super light and simple theme.

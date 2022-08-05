@@ -1,17 +1,9 @@
 .post-content {
-    p {
-        width: 100%;
-        margin: 30px 0;
-        font-size: 15px;
-        color: $font-color;
-        line-height: 28px;
-    }
-
     h1,
     h2,
     h3 {
         width: 100%;
-        margin: 50px 0 25px -12px;
+        margin: 50px 0 30px -12px;
         font-weight: bold;
         color: $font-color;
         line-height: 30px;
@@ -25,7 +17,10 @@
         }
     }
 
-    h1,
+    h1 {
+        font-size: 24px;
+    }
+
     h2 {
         font-size: 22px;
     }
@@ -34,12 +29,42 @@
         font-size: 20px;
     }
 
+    h4,
+    h5 {
+        width: 100%;
+        margin: 30px 0;
+        font-weight: bold;
+        color: $font-color;
+        line-height: 28px;
+    }
+
     h4 {
-        margin-top: 50px;
         font-size: 18px;
     }
 
-    img {
+    h5 {
+        font-size: 15px;
+    }
+
+    h6 {
+        width: 100%;
+        margin: -25px 0 40px 0;
+        font-weight: normal;
+        color: $subfont-color;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    p {
+        width: 100%;
+        margin: 30px 0;
+        font-size: 15px;
+        color: $font-color;
+        line-height: 28px;
+    }
+
+    img,
+    video {
         display: block;
         max-width: 85%;
         max-height: 600px;
@@ -52,8 +77,108 @@
         font-size: 15px;
         @include font-hover-color;
     }
+
+    code {
+        font-size: 14px;
+        margin: 30px 2px;
+        padding: 2px 5px;
+        border: solid 1px $borderme-color;
+        border-radius: 3px;
+        background: $border-color;
+        font-family: $font-main;
+    }
+
+    figure {
+        margin: 30px 0;
+        padding: 20px 25px;
+        border: solid 1px $borderme-color;
+        border-radius: 3px;
+        background: $border-color;
+        td.gutter {
+            display: none;
+        }
+        pre {
+            margin: 0;
+            span {
+                font-size: 14px;
+                line-height: 28px;
+                white-space: pre-wrap;
+                word-break: keep-all;
+                font-family: $font-main;
+            }
+        }
+    }
+
+    hr {
+        display: block;
+        margin: 50px auto;
+        height: 1px;
+        width: 100%;
+        background: $borderme-color;
+    }
+
+    blockquote {
+        margin: 30px 0;
+        padding-left: 25px;
+        border-left: solid 5px $border-color;
+        p {
+            color: $subfont-color;
+        }
+        blockquote {
+            padding-left: 12px;
+        }
+    }
+
+    ul,
+    ol {
+        margin: 30px 0;
+        padding: 0 0 0 35px;
+        li {
+            margin: 10px 0;
+            font-size: 15px;
+            color: $font-color;
+            line-height: 28px;
+            ul {
+                margin: 10px 0;
+            }
+        }
+    }
+
+    table {
+        width: 100%;
+        margin: 30px 0;
+        border-radius: 5px;
+        border-collapse: collapse;
+        background: $border-color;
+        overflow: hidden;
+        thead {
+            tr {
+                height: 40px;
+                background: $font-color;
+                th {
+                    font-size: 15px;
+                    color: $background-color;
+                    font-weight: normal;
+                    padding: 0 15px;
+                    text-align: center;
+                }
+            }
+        }
+        tbody {
+            tr {
+                height: 40px;
+                background: $border-color;
+                &:nth-child(even) {
+                    background: $borderme-color;
+                }
+                td {
+                    font-size: 15px;
+                    color: $font-color;
+                    font-weight: normal;
+                    padding: 0 15px;
+                    text-align: center;
+                }
+            }
+        }
+    }
 }
-
-
-
-
