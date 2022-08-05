@@ -6,7 +6,7 @@ $theme-color-map: (
 );
 
 // Set theme color
-$theme-color-config: 'Light';
+$theme-color-config: 'Dark';
 
 // Default theme color of the site.
 $theme-color-list: map-get($theme-color-map, $theme-color-config);
@@ -23,3 +23,4 @@ $highlight-color: nth($theme-color-list, 7);
 $body-width: 940px;
 $body-padding: 0 30px;
 $font-main: "Open Sans","PingFang SC","Hiragino Sans GB","Microsoft Yahei",sans-serif;
+$font-code: "sourcecodepro","Open Sans","PingFang SC","Hiragino Sans GB","Microsoft Yahei",sans-serif;
