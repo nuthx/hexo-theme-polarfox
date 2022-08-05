@@ -3,6 +3,6 @@
         <a>Categories</a>
     </div>
     <section class="widget-margin">
-        {{ list_categories({show_count: true}) }}
+        {{ list_categories({show_count: true, orderby: 'length', order: 'desc'}) }}
     </section>
 {% endif %}

@@ -4,9 +4,9 @@
     </div>
     <section class="widget-margin">
         {% if is_home() %}
-            {{ list_tags({show_count: true, amount: 8, orderby: 'count'}) }}
+            {{ list_tags({show_count: true, amount: 10, orderby: 'length', order: 'desc'}) }}
         {% else %}
-            {{ list_tags({show_count: true, orderby: 'count', order: 1}) }}
+            {{ list_tags({show_count: true, orderby: 'length', order: 'desc'}) }}
         {% endif %}
     </section>
 {% endif %}
