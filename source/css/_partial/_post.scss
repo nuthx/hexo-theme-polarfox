@@ -28,7 +28,8 @@
 }
 
 .post-categories,
-.post-tags {
+.post-tags,
+.post-words {
     margin-left: 40px;
     display: inline-block;
     a {
@@ -53,6 +54,10 @@
     content: "\e902";
 }
 
+.post-words:before {
+    content: "\e903";
+}
+
 .post-excerpt {
     margin: 70px 0;
     font-size: 15px;
@@ -64,17 +69,6 @@
     width: 100%;
     margin: 50px 0;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .post-sourceurl {
     margin: 50px 0;

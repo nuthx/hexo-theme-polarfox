@@ -25,6 +25,9 @@
                             {% endfor %}
                         </div>
                     {% endif %}
+                    <div class="post-words">
+                        <a>{{ symbolsCount(page) }}，{{ symbolsTime(page) }}</a>
+                    </div>
                 </div>
             </header>
             {% if page.description %}
