@@ -1,8 +1,8 @@
 // ========== Theme Color ========== //
 // Default theme color map
 $theme-color-map: (
-    'Light': #FFFFFF #F6F6F6 #DDDDDD #666666 #666666B3 #66666680 #FF2121,
-    'Dark': #222222 #333333 #555555 #D5D5D5 #D5D5D599 #D5D5D566 #FFEB44
+    'Light': #FFFFFF #F6F6F6 #DDDDDD #666666 #666666B3 #66666680 #FF2121 #CCCCCC,
+    'Dark': #222222 #333333 #555555 #D5D5D5 #D5D5D599 #D5D5D566 #FFEB44 #555555
 );
 
 // Set theme color
@@ -17,6 +17,7 @@ $font-color: nth($theme-color-list, 4);
 $subfont-color: nth($theme-color-list, 5);
 $trifont-color: nth($theme-color-list, 6);
 $highlight-color: nth($theme-color-list, 7);
+$scrollbar-color: nth($theme-color-list, 8);
 
 
 // ========== Global ========== //
