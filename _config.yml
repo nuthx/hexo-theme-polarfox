@@ -13,7 +13,7 @@ favicon: /favicon.ico
 # ===========================================
 menu:
   Archives: /archives
-  About: /about
+#  About: /about
 
 # ===========================================
 # Widget Settings
@@ -37,5 +37,4 @@ widget_custom:
 # ===========================================
 # theme styling
 # color: Default | Mint Green | Cobalt Blue | Hot Pink | Dark Violet
-theme:
-  color: Dark
+color: 'dark'

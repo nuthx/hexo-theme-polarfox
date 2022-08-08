@@ -1,12 +1,16 @@
 // ========== Theme Color ========== //
+// Set theme color
+$theme-color-config: hexo-theme-config('color');
+
 // Default theme color map
 $theme-color-map: (
-    'Light': #FFF #F6F6F6 #DDD #666666 #666666B3 #66666680 #FF2121 #CCC #444 #F6F6F6 #E6E6E6,
-    'Dark': #222 #333333 #555 #D5D5D5 #D5D5D599 #D5D5D566 #FFEB44 #555 #CCC #2D2D2D #383838
+    'light': #FFF #F6F6F6 #DDD #666666 #666666B3 #66666680 #FF2121 #CCC #444 #F6F6F6 #E6E6E6,
+    'dark': #222 #333333 #555 #D5D5D5 #D5D5D599 #D5D5D566 #FFEB44 #555 #CCC #2D2D2D #383838,
 );
 
-// Set theme color
-$theme-color-config: 'Light';
+@if not(map-has-key($theme-color-map, $theme-color-config)) {
+    $theme-color-config: 'light';
+}
 
 // Default theme color of the site.
 $theme-color-list: map-get($theme-color-map, $theme-color-config);
