@@ -28,8 +28,7 @@
 }
 
 .post-categories,
-.post-tags,
-.post-words {
+.post-tags {
     margin-left: 40px;
     display: inline-block;
     a {
@@ -37,6 +36,22 @@
         color: $subfont-color;
         text-decoration: none;
         @include font-hover-color;
+    }
+    &:before {
+        margin-right: 3px;
+        font-family: 'icomoon';
+        font-size: 12px;
+        color: $trifont-color;
+    }
+}
+
+.post-words {
+    margin-left: 40px;
+    display: inline-block;
+    a {
+        font-size: 14px;
+        color: $subfont-color;
+        text-decoration: none;
     }
     &:before {
         margin-right: 3px;
