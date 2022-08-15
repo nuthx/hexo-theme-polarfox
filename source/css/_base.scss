@@ -16,17 +16,6 @@ body {
     vertical-align: baseline;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-a {
-    color: $font-color;
-}
-
 #content {
     margin: 50px auto;
     padding: $body-padding;
